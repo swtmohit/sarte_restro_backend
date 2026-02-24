@@ -4,6 +4,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/service/index.ts",
+    "build": "tsc",
+    "start": "node dist/service/index.js",
     "seedAdmin": "ts-node src/seeders/seedAdmin.ts"
   },
   "keywords": [],

@@ -1,5 +1,7 @@
 import {Router} from "express";
-import {apiRouter} from "./apiRouter";
 
 export const createRouter = Router()
-apiRouter.use("/create" , createRouter)
+
+// Import controllers to register routes
+import "../controllers/staffUser/staffUser";
+import "../controllers/customer/createCustomer";

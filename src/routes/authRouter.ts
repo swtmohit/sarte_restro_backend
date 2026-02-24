@@ -14,3 +14,5 @@ export const authRouter = Router();
 
 // Import controllers to register routes
 import "../controllers/auth/login";
+import "../controllers/auth/customerLogin";
+import "../controllers/auth/logout";

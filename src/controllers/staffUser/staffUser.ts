@@ -1,10 +1,10 @@
 import { RequestHandler } from "express";
 import { body } from "express-validator";
 import bcrypt from "bcryptjs";
-import { User } from "../models/panelUser";
-import { createRouter } from "../routes/createRouter";
-import { validate } from "../helpers/validate";
-import { success } from "../helpers/response";
+import { User } from "../../models/StaffUser";
+import { createRouter } from "../../routes/createRouter";
+import { validate } from "../../helpers/validate";
+import { success } from "../../helpers/response";
 
 const handler: RequestHandler = async (req, res, next) => {
     try {

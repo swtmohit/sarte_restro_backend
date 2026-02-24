@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import bcrypt from "bcryptjs";
-import { User } from "../models/panelUser";
+import { User } from "../models/StaffUser";
 
 dotenv.config();
 const adminUser = {
