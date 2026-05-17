@@ -7,7 +7,7 @@ export const app = express()
 app.get("/", (req: Request, res: Response) => {
     res.status(200).json({
       success: true,
-      message: "Sarte Restro Backend Server is running successfully 🚀",
+      message: "I love You Sweta ❤️❤️❤️I Miss You So Much My Sweetheart❤️❤️❤️",
     });
   });
 
